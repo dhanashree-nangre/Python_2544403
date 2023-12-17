@@ -1,0 +1,52 @@
+name	merged_abbreviations
+Alder Buckthorn	ARB
+Almond-leaved Willow	ADW
+Aspen	APN
+Bay Willow	BYW
+Bird Cherry	BDC
+Black Poplar	BKP
+Blackthorn	BKN
+Box	BOX
+Common Ash	CAS
+Common Dogwood	CND
+Common Hawthorn	CHN
+Common Hazel	CHZ
+Common Juniper	CNJ
+Common Osier	CSR
+Common Privet	CPT
+Common Whitebeam	CWM
+Crab Apple	CBP
+Crack Willow	CKW
+Downy Birch	DYB
+Eared Willow	EDW
+Elder	EDR
+European Beech	EBH
+European Holly	EHY
+European Hornbeam	EHM
+European Rowan	EWN
+European Yew	EYW
+Field Maple	FDM
+Grey Willow	GYW
+Guelder Rose	GRR
+Large-leaved Lime	LDL
+Midland Hawthorn	MDH
+Pedunculate Oak	POK
+Plot's Elm	PSE
+Purging Buckthorn	PGB
+Purple Willow	PWW
+Rock Whitebeam	RKW
+Sallow	SLW
+Scots Pine	SSP
+Sea-buckthorn	SBN
+Service Tree	SVT
+Sessile Oak	SOK
+Silver Birch	SVB
+Small-leaved Lime	SDI
+Smooth-leaved Elm	SHD
+Spindle	SPD
+Strawberry Tree	SYT
+Wayfaring tree	WGT
+White Willow	WWW
+Wild Cherry	WCY
+Wild Service Tree	WST
+Wych Elm	WEM
