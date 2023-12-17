@@ -1,6 +1,7 @@
 #import libraries
 import pandas as pd
 import warnings
+import os
 
 # To reset warnings to their default behavior (optional)
 warnings.resetwarnings()
@@ -99,6 +100,19 @@ def main():
     # Merge rows based on name and write to a text file
     merged_df = result_df.groupby('name').apply(lambda group: ', '.join(group['abbreviation'])).reset_index(name='merged_abbreviations')
     merged_df.to_csv(output_filename, sep='\t', index=False)
+    # Check if the file exists before deleting it
+    if os.path.exists(output_filename):
+        os.remove(output_filename)
+        print(f"The file '{output_filename}' has been deleted.")
+    with open(output_filename, 'a') as file:
+        for name in names:
+            row_with_name = merged_df.loc[merged_df['name'] == name]
+            if not row_with_name.empty:
+                file.writelines(row_with_name.to_string(index=False,header=False) + '\n')
+            else:
+                file.write(name+'\n')
+
             
+    
 if __name__ == "__main__":
     main()
